@@ -28,14 +28,17 @@
       body {
         font-family: "Inter", sans-serif;
       }
+      .profile-pic {
+        width: 30px;
+      }
     </style>
   </head>
   <body>
-    <nav>
+    <nav class="container-fluid justify-content-between align-items-center d-flex">
       <div class="nav1">
         <ul class="nav nav-tabs">
           <li class="nav-item">
-            <img src="" alt="" />
+            <img class="profile-pic" src="./assets/profile-pic.jpg" alt="" />
           </li>
           <li class="nav-item dropdown">
             <a
@@ -44,25 +47,61 @@
               href="#"
               role="button"
               aria-expanded="false"
-              >Dropdown</a
+              >Browse</a
             >
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Separated link</a>
-            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >Landings</a
+            >
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >Pages</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >Account
+            </a>
           </li>
         </ul>
       </div>
-      <div class="nav2"></div>
+      <div class="nav2">
+
+        <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >Landings</a
+            >
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+          </li>
+      </div>
     </nav>
   </body>
 </html>
