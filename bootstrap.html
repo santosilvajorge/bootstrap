@@ -24,18 +24,7 @@
       integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
       crossorigin="anonymous"
     ></script>
-    <style>
-      body {
-        font-family: "Inter", sans-serif;
-      }
-      .profile-pic {
-        width: 30px;
-        border-radius: 50%;
-      }
-      .hero-content {
-          background-color: rgb(100, 70, 184);
-      }
-    </style>
+    <link rel="stylesheet" href="bootstrap.css">
   </head>
   <body>
     <nav
@@ -91,11 +80,11 @@
       <div class="nav2">
         <ul class="nav nav-tabs">
           <li class="nav-item">
-            <img class="profile-pic" src="./assets/bell-icon.jpg alt=" alt="bell icon" />
+            <i id="bell-icon" class="fa-regular fa-bell"></i>
           </li>
           <li class="nav-item dropdown">
             <a
-              class="nav-link dropdown-toggle"
+              class="nav-link dropdown-toggle "
               data-toggle="dropdown"
               href="#"
               role="button"
@@ -122,14 +111,14 @@
       </div>
     </nav>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-6 hero-content">
+    <div class="container-fluid hero-container">
+        <div class="row hero-bar">
+            <div class="col-6 d-flex hero-content">
                 <h1>Welcome Web Students!</h1>
                 <p>Hand-picked instructor and expertly crafted courses, designed for the modern students and entrepreneur</p>
                 <div>
-                    <a href="#" type="button">Browse Courses</a>
-                    <a href="#" type="button">Are You Instructor?</a>
+                    <a class="btn1 btn-success" href="#" type="button">Browse Courses</a>
+                    <a class="btn2 btn-light" href="#" type="button">Are You Instructor?</a>
                 </div>
             </div>
             <div class="col-6">
@@ -139,23 +128,23 @@
     </div>
 
     <div class="container">
-        <div class="row">
-        <div class="col">
-            <i></i>
+        <div class="row d-flex mt-3">
+        <div class="col info-content">
+            <i class="icon-info fa-solid fa-video"></i>
             <div>
                 <h4>30,000 online courses</h4>
                 <p>Enjoy a variety of fresh topics</p>
             </div>
         </div>
-        <div class="col">
-            <i></i>
+        <div class="col info-content">
+            <i class="icon-info fa-solid fa-user-group"></i>
             <div>
                 <h4>Expert instruction</h4>
                 <p>Find the right instructor for you</p>
             </div>
         </div>
-        <div class="col">
-            <i></i>
+        <div class="col info-content">
+            <i class="icon-info fa-solid fa-clock"></i>
             <div>
                 <h4>Lifetime access</h4>
                 <p>Learn on your schedule</p>
@@ -503,5 +492,16 @@
         
     </div>
 
+    <footer>
+      <div>2022 Geeks. All Rights Reserved.</div>
+      <div>
+        <p>Privacy</p>
+        <p>Terms</p>
+        <p>Feedback</p>
+        <p>Support</p>
+      </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/e065ff4ab3.js" crossorigin="anonymous"></script>
   </body>
 </html>

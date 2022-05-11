@@ -1,0 +1,69 @@
+body {
+    max-width: 100%;
+    font-family: "Inter", sans-serif;
+    color: black;
+  }
+
+  nav {
+      color:black
+  }
+  .profile-pic {
+    width: 30px;
+    border-radius: 50%;
+  }
+  .hero-content {
+      background-color: rgb(116, 90, 231);
+  }
+
+  a {
+      color:black
+  }
+
+  .nav1, .nav2 {
+      display: flex;
+  }
+
+  .nav {
+      align-items: center;
+      justify-content: center;
+  }
+
+#bell-icon {
+    background-color: rgba(162, 159, 170, 0.247);
+    border-radius: 50%;
+    padding: 1vh;
+}
+.dropdown-menu {
+    display: absolute;
+}
+.dropdown-item {
+    display: relative;
+    right: 100px;
+}
+.hero-content h1 {
+    color: white
+}
+.hero-content p {
+    color: rgba(219, 219, 219, 0.808)
+}
+.btn1, .btn2 {
+    border-radius: 0.5vh;
+    padding: 2vh;
+    font-size: medium;
+    font-weight: 600;
+}
+.hero-container, .hero-bar {
+    padding: 0 24vh 0 18vh;
+    background-color: rgb(116, 90, 231)
+}
+.hero-content {
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.icon-info {
+    color: rgb(201, 137, 20);
+    background-color: rgba(250, 228, 103, 0.575);
+    padding: 2vh;
+    border-radius: 50%;
+}
