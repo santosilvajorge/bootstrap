@@ -82,11 +82,42 @@ body {
     padding: 10vh 25vh 5vh 25vh;
 }
 footer {
+    margin-top: 5vh;
     display: flex;
     justify-content: space-between;
 }
 .footer-index {
+    padding-left: 95vh;
     display: flex;
     justify-content: space-around;
     column-gap: 2vh;
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+}
+.card-img-top{
+    flex-grow: 2;
+}
+.card-img-top {
+    flex-grow: 4;
+}
+.card-stats, .card-stars, .card-price{
+    display: flex;
+    column-gap: 1vh;
+    row-gap: 2vh;
+
+}
+.card-body {
+    flex-direction: column;
+}
+.card-stars {
+    color: goldenrod
+}
+.fa-signal {
+    color:rgb(97, 5, 97)
+}
+.card-teacher {
+    display: flex;
+    justify-content: space-around;
 }
