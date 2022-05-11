@@ -81,3 +81,12 @@ body {
     background-color: rgba(202, 202, 202, 0.459);
     padding: 10vh 25vh 5vh 25vh;
 }
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-index {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 2vh;
+}
