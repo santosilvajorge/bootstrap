@@ -62,8 +62,22 @@ body {
     flex-direction: column;
 }
 .icon-info {
+    margin: 1vh;
+    width: 8vh;
+    height: 8vh;
     color: rgb(201, 137, 20);
     background-color: rgba(250, 228, 103, 0.575);
     padding: 2vh;
     border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.info-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container {
+    background-color: rgba(202, 202, 202, 0.459);
+    padding: 10vh 25vh 5vh 25vh;
 }
